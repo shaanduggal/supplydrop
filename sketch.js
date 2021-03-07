@@ -49,6 +49,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
+  console.log("try to get the pacage into the box!")
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
